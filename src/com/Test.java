@@ -9,8 +9,8 @@ import javax.swing.text.AbstractDocument.BranchElement;
 public class Test {
 	public static void txt(){
 	    
-		try (FileReader fInputStream = new FileReader("D:\\homework\\outport.txt");//读文件
-		   FileWriter fOutputStream  = new FileWriter("D:\\homework\\import.txt")){//重新写入文件
+		try (FileReader fInputStream = new FileReader("C:\\homework\\1.txt");//读文件
+		   FileWriter fOutputStream  = new FileWriter("C:\\homework\\2.txt")){//重新写入文件
 		   StringBuffer st=new StringBuffer();
 		
 		  char[] ch=new char[14];//设置有14个字符
